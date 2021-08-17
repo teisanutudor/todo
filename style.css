@@ -1,0 +1,65 @@
+.conteiner {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  margin-top: 10px;
+  width: 400px;
+}
+
+.list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding: 8px;
+}
+
+.list__item:hover {
+  background: lightgray;
+  cursor: pointer;
+}
+
+button {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.remove__btn {
+  color: red;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+input {
+  padding: 8px;
+  outline: none;
+  border: 1px solid lightgray;
+}
+
+input:focus {
+  border-bottom: 2px solid cornflowerblue;
+}
+
+.add-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-block > button {
+  border: 1px solid lightgreen;
+  margin-left: 5px;
+  font-size: 18px;
+  color: green;
+  cursor: pointer;
+}
+
+.add-block> input {
+
+  width: 100%;
+}
